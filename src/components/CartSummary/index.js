@@ -22,6 +22,7 @@ const CartSummary = () => (
           <p>{cartList.length}items in cart</p>
           <Popup
             modal
+            className="vary-madel"
             trigger={
               <button className="checkout-button" type="button">
                 Checkout
